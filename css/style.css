@@ -27,19 +27,19 @@ header{
     height: 75px;
 }
 
-.top-header #logo,
+.top-header .logo,
 .top-header #top-links,
 .top-header #login{
     float: left;
     height: 75px;
 }
 
-.top-header #logo{
+.top-header .logo{
     width: 20%;
     padding-top: 17px;
 }
 
-#logo img{
+.logo img{
     width: 150px;
 }
 
@@ -276,6 +276,37 @@ footer{
 .orizontal-li a:hover{
     text-decoration: underline;
 }
+
+.bottom-footer{
+    height: 14%;
+    position: relative;
+    margin-top: 35px;
+}
+
+#logo-bot{
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-top: 13px;
+}
+
+.subscribe{
+    float: left;
+    position: absolute;
+    background-color: cornflowerblue;
+    right: 3px;
+    top: 10px;
+}
+
+.subscribe a{
+    
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe a:hover{
+    text-decoration: underline;
+}
 /* / Layout */
 
 
@@ -395,7 +426,12 @@ footer{
 .debug .bottom-footer{
     border: 2px dashed brown;
     height: 14%;
+    position: relative;
 }
+
+
+
+
 /*
 .debug #country-social{
     display: inline-block;
@@ -410,6 +446,3 @@ footer{
     border: 2px dashed rgb(0, 0, 255);
     width: 65%;
     height: 100%;
-}
-
-*/
