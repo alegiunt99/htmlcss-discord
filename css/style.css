@@ -216,7 +216,6 @@ footer{
 }
 
 #country-social{
-    float: left;
     display: inline-block;
     width: 35%;
     height: 100%;
@@ -257,7 +256,6 @@ footer{
 }
 
 #other-pages{
-    float: left;
     display: inline-block;
     width: 65%;
     height: 100%;
