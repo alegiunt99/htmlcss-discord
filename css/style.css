@@ -196,6 +196,85 @@ section p{
 footer{
     height: 500px;
     margin-top: 400px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.cont-footer{
+    height: 100%;
+}
+
+.top-footer{
+    height: 75%;
+    margin-top: 5%;
+    border-bottom: 1px solid lightgrey;
+    font-size: 0px;
+}
+
+#country-social{
+    float: left;
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#country-social img{
+    width: 20px;
+}
+
+#country-social h3{
+    font-size: 35px;
+    color: cornflowerblue;
+    margin-bottom: 30px;
+}
+
+#country-social span{
+    cursor: pointer;
+}
+
+#country-social span:hover{
+    color: cornflowerblue;
+}
+ 
+.bottom-footer{
+    height: 14%;
+}
+
+#other-pages{
+    float: left;
+    display: inline-block;
+    width: 65%;
+    height: 100%;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+#other-pages .orizontal-li{
+    display: inline-block;
+    margin-right: 27px;
+
+}
+
+#other-pages .orizontal-li h4{
+    color: cornflowerblue;
+}
+
+#other-pages li{
+    list-style-type: none;
+}
+
+.orizontal-li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.orizontal-li a:hover{
+    text-decoration: underline;
 }
 /* / Layout */
 
@@ -293,12 +372,13 @@ footer{
     margin-left: 0px;
     margin-right: 8%
 }
-*/
+*
 .debug footer{
     border: 2px dashed black;
     height: 500px;
     margin-top: 400px;
 }
+*
 .debug .cont-footer{
     border: 2px dashed rgb(172, 155, 62);
     height: 100%;
@@ -308,11 +388,28 @@ footer{
     border: 2px dashed rgb(251, 255, 1);
     height: 75%;
     margin-top: 5%;
+    border-bottom: 1px solid lightgrey;
+    font-size: 0px;
 }
- 
+ */
 .debug .bottom-footer{
     border: 2px dashed brown;
-    height: 20%;
+    height: 14%;
+}
+/*
+.debug #country-social{
+    display: inline-block;
+    border: 2px dashed red;
+    width: 35%;
+    height: 100%;
+}*
+
+.debug #other-pages{
+    float: left;
+    display: inline-block;
+    border: 2px dashed rgb(0, 0, 255);
+    width: 65%;
+    height: 100%;
 }
 
-/*/ Debug */
+*/
