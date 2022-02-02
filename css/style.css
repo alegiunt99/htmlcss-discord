@@ -165,6 +165,7 @@ section p{
 
 #big-section .img-sect-4{
     color: black;
+    padding-top: 400px;
 }
 
 #big-section .img-sect-4 h3{
@@ -188,7 +189,7 @@ section p{
 #text-2{
     margin-left: 0px;
     margin-right: 6%;
-    width:36%;
+    width: 34%;
     padding-top: 20px;
 }
 
@@ -242,7 +243,8 @@ footer{
     border: 2px dashed blue;
     height: 2300px;
     margin-top: 100px;
-} */
+} 
+
 
 
 .debug section{
@@ -251,9 +253,10 @@ footer{
     margin-bottom: 70px;
 }
 
+
 .debug main #big-section{
     height: 800px;
-}
+} 
 
 .debug .img-sect-1,
 .debug .img-sect-2,
@@ -290,7 +293,7 @@ footer{
     margin-left: 0px;
     margin-right: 8%
 }
-
+*/
 .debug footer{
     border: 2px dashed black;
     height: 500px;
