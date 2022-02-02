@@ -123,6 +123,10 @@ header{
     margin-left: 30px;
 }
 
+#open-btn:hover{
+    color: rgb(49, 97, 224);
+}
+
 .center a:hover{
     color: rgb(49, 97, 224);
 }
@@ -236,6 +240,16 @@ footer{
 
 #country-social span:hover{
     color: cornflowerblue;
+}
+
+#social-network{
+    margin-top: 20px;
+}
+
+#social-network img{
+    width: 20px;
+    margin-left: 20px;
+    cursor: pointer;
 }
  
 .bottom-footer{
@@ -422,13 +436,13 @@ footer{
     border-bottom: 1px solid lightgrey;
     font-size: 0px;
 }
- */
+ 
 .debug .bottom-footer{
     border: 2px dashed brown;
     height: 14%;
     position: relative;
 }
-
+*/
 
 
 
